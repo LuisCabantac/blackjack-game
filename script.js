@@ -8,7 +8,7 @@ let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 
-function startGame() {
+function renderGame() {
     cardsEl.textContent = `Cards:  ${firstCard} ${secondCard}`;
     sumEl.textContent = "Sum: "+ sum;
     if (sum <= 20) {
@@ -27,5 +27,5 @@ function newCard() {
     console.log("Drew new card");
     let card = 5;
     sum += card;
-    startGame();
+    renderGame();
 }
