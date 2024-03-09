@@ -22,3 +22,10 @@ function startGame() {
     }
     messageEl.textContent = message;
 }
+
+function newCard() {
+    console.log("Drew new card");
+    let card = 5;
+    sum += card;
+    startGame();
+}
