@@ -20,6 +20,10 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true;
+    let firstCard = getRandomCard();
+    let secondCard = getRandomCard();
+    cards = [firstCard, secondCard];
+    sum = firstCard + secondCard;
     renderGame();
 }
 
