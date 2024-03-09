@@ -35,4 +35,5 @@ button {
     width: 150px;
     background-color: goldenrod;
     border: none;
+    padding: 5px;
 }
