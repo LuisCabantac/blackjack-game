@@ -15,6 +15,9 @@ body {
     width: 100%;
     height: 100%;
     box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
