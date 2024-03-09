@@ -1,5 +1,5 @@
-let firstCard = 1;
-let secondCard = 1;
+let firstCard = getRandomCard();
+let secondCard = getRandomCard();
 let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
@@ -37,7 +37,7 @@ function renderGame() {
 
 function newCard() {
     console.log("Drew new card");
-    let card = 5;
+    let card = getRandomCard();
     sum += card;
     cards.push(card);
     renderGame();
