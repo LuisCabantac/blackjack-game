@@ -1,7 +1,7 @@
 let cards = [];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
-let isAlive = true;
+let isAlive = false;
 let message = "";
 let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
@@ -19,6 +19,7 @@ function getRandomCard() {
 }
 
 function startGame() {
+    isAlive = true;
     renderGame();
 }
 
