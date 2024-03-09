@@ -35,5 +35,6 @@ button {
     width: 150px;
     background-color: goldenrod;
     border: none;
+    border-radius: 3px;
     padding: 5px;
 }
