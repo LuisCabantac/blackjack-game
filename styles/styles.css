@@ -21,3 +21,7 @@ h1 {
     color: goldenrod;
     font-family: "Cardo", serif;
 }
+
+#message-el {
+    font-style: italic;
+}
