@@ -1,5 +1,5 @@
-let playerName = window.prompt("Enter your name:");
-let playerChips = window.prompt("Enter your chips:");
+let playerName = prompt("Enter your name:");
+let playerChips = prompt("Enter the amount/number of your chips:");
 let player = {
     name: playerName,
     chips: playerChips
