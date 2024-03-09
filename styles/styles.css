@@ -33,7 +33,9 @@ button {
     background-color: goldenrod;
     border: none;
     border-radius: 3px;
-    padding: 5px;
+    padding: 5px 0;
     display: block;
-    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 }
