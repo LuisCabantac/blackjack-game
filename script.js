@@ -1,6 +1,4 @@
-let firstCard = getRandomCard();
-let secondCard = getRandomCard();
-let cards = [firstCard, secondCard];
+let cards = [];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
