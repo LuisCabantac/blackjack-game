@@ -9,6 +9,10 @@ let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 
+function getRandomCard() {
+    return ;
+}
+
 function startGame() {
     renderGame();
 }
