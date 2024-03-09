@@ -39,3 +39,13 @@ button {
     margin-right: auto;
     margin-top: 5px;
 }
+
+button:hover {
+    color: #015F29;
+    background-color: #DFC539;
+}
+
+button:active {
+    color: #0C9333;
+    background-color: #C9A616;
+}
